@@ -1,0 +1,110 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2A00A2, #3A0CA3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    min-height: 400px; /* Ensures both forms have the same height */
+}
+
+.header {
+    color: #5A2CA4;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #5A2CA4;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 28px;  /* Ensure consistent font size */
+    font-weight: bold; /* Ensure consistent font weight */
+    line-height: 1.7;  /* Optional: Adjust for better spacing */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%; /* Distribute content evenly */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 100%;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #A9A9A9;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.link {
+    color: #A9A9A9;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.link-highlight {
+    color: #5A2CA4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    border-radius: 50px;
+    padding: 10px;
+    width: 48%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    background-color: #E0E0E0;
+    color: #5A2CA4;
+}
+
+.login-button {
+    background-color: #E0E0E0;
+    color: #5A2CA4;
+}
+
+.button.active {
+    background-color: #5A2CA4;
+    color: white;
+}
+
